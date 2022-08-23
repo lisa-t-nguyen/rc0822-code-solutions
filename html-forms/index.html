@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <h1>Coding Form!</h1>
+    <form action="http://www.example.com/review.php" method="get">
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" required>
+      <div>
+        <label for="coding"> Why is coding cool? </label>
+      </div>
+      <select name="options" id="coding">
+        <option value="Select an option">Select an option</option>
+        <option value="Because it's interesting">Because it's interesting</option>
+        <option value="Because it's fun">Because it's fun</option>
+        <option value="Because it's powerful">Because it's powerful</option>
+      </select>
+      <div>
+        <p>Favorite Language (choose one)</p>
+        <label for="HTML">
+          <input type="radio" name="language" value="HTML" id="HTML" />
+          HTML
+        </label>
+        <label for="CSS">
+          <input type="radio" name="language" value="CSS" id="CSS" />
+          CSS
+        </label>
+        <label for="JavaScript">
+          <input type="radio" name="language" value="JavaScript" id="JavaScript" />
+          JavaScript
+        </label>
+      </div>
+      <div>
+        <p>Would you like to sign up for more information?</p>
+        <label for="signmeup">
+          <input type="checkbox" name="signmeup" checked="checked" id="signmeup" />
+          Sign me up!
+        </label>
+      </div>
+      <div>
+        <label for="comments">
+          Comments:
+        </label>
+        <br />
+        <textarea rows="20" cols="40" id="comments">
+        </textarea>
+      </div>
+      <div>
+        <label for="Submit">
+          <input type="submit" value="Submit" id="Submit" />
+        </label>
+      </div>
+  </body>
+</html>
