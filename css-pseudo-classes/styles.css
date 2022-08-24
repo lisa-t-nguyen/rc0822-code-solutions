@@ -1,0 +1,21 @@
+button {
+  height: 50px;
+  width: 200px;
+  font-size: 24px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 200px;
+}
+
+thead {
+  background-color: black;
+  color: white;
+}
+
+tr.gray {
+  background-color: lightgray;
+}
