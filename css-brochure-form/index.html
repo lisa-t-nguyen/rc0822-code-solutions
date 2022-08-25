@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Challenge - Brochure Form</title>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h2>LEARN MORE</h2>
+    <form action="" method="get" class="container">
+      <p>COMPANY EMAIL</p>
+      <label for="email">
+        <input type="email" name="email" id="email" placeholder="codegal@company.co" class="input">
+      </label>
+      <p>NAME</p>
+      <label for="name">
+        <input type="text" name="name" id="name" placeholder="Code Gal" class="input" >
+      </label>
+      <p>WHERE ARE YOU HIRING?</p>
+      <label for="location">
+        <input type="text" name="location" id="location" placeholder="City, Country" class="input">
+      </label>
+      <p>HOW MANY ENGINEERS ARE YOU HIRING IN THE NEXT 6 MONTHS?</p>
+      <label for="amount">
+        <select id="amount" class="input">
+          <option value="Please select an option" disabled>Please select an option</option>
+          <option value="1-2">1-2 Engineers</option>
+          <option value="3-4">3-4 Engineers</option>
+          <option value="4-5">4-5 Engineers</option>
+          <option value="5-6">5-6 Engineers</option>
+        </select>
+      </label>
+      <div class="button">
+        <label for="button">
+          <input type="button" id="button" name="submit" value="SUBMIT">
+        </label>
+      </div>
+  </div>
+    </form>
+</body>
+</html>
