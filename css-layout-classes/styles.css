@@ -1,0 +1,33 @@
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Removed justify-content and flex-wrap from each CSS rule set, not needed */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column-one-third {
+  width: calc(100%/3);
+}
+
+.column-two-third {
+  width: calc(200%/3);
+}
+
+.column-one-fourth {
+  width: calc(100%/4);
+}
+
+.column-full {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
