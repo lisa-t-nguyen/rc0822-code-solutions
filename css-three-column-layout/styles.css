@@ -1,0 +1,56 @@
+body {
+  background-color: #1996da;
+  color: white;
+}
+
+.container {
+  width: 100vh;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #1996da;
+  color: white;
+  font-family: Lato, serif;
+  line-height: 22px;
+}
+
+.row {
+  padding: 3px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column-one-third {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  flex-basis: calc(100%/3);
+  text-align: center;
+  justify-content: center;
+}
+
+.image {
+  background-color: white;
+  border-radius: 500px;
+  width: 50%;
+  margin: 5%;
+}
+
+img {
+  width: 100%;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+p {
+  color: lightgray;
+}
+
+h2 {
+  margin: 0%;
+  padding-top: 10px;
+}
