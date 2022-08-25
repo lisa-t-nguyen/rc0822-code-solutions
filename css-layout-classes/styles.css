@@ -5,31 +5,27 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Removed justify-content and flex-wrap from each CSS rule set, not needed */
+
 .row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .column-one-third {
-  flex-wrap: wrap;
   width: calc(100%/3);
-  justify-content: center;
 }
 
 .column-two-third {
-  flex-wrap: wrap;
   width: calc(200%/3);
 }
 
 .column-one-fourth {
-  flex-wrap: wrap;
   width: calc(100%/4);
 }
 
 .column-full {
   width: 100%;
-  flex-wrap: wrap;
 }
 
 img {
