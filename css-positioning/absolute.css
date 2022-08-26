@@ -30,6 +30,9 @@
   width: 300px;
 }
 
+/* For .overlay - You can use % for width and height because the direct parent
+has a set height and width on it, in this case it works because the ancestor has a set height */
+
 .overlay {
   position: absolute;
   background: linear-gradient(transparent, rgb(0 0 0 / 75%));
