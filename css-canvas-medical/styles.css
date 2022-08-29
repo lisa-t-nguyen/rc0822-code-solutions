@@ -1,0 +1,241 @@
+.container {
+  margin: 0 auto;
+}
+
+.canvasimage {
+  width: 70%;
+  margin-left: 50px;
+}
+
+.navigation {
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+
+.nav {
+  width: 100%;
+  text-align: right;
+  margin-top: 25px;
+}
+
+.gray-text {
+  font-family: Avenir, sans-serif;
+  color: lightslategray;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.firstbutton {
+  font-size: 16px;
+  font-family: Avenir, sans-serif;
+  background-color: #294464;
+  color: white;
+  border-radius: 6px;
+  padding: 1px;
+  border: none;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 50px;
+  width: 15%;
+  height: 45px;
+}
+
+.border {
+  margin-top: -10px;
+  border: #e7e9ec solid 1px;
+}
+
+.flexforreimagined {
+  display: flex;
+  justify-content: center;
+}
+
+.reimagined {
+  background-image: url("images/hero.jpg");
+  position: relative;
+  background-size: cover;
+  width: 900px;
+  height: 450px;
+  margin-top: 45px;
+}
+
+.reimaginedtext {
+  position: relative;
+  color: white;
+  margin-left: 50px;
+  margin-right: 410px;
+  top: 50px;
+  line-height: 22px;
+}
+
+.emrpc {
+  font-family: "Tiempos Headline", serif;
+  font-weight: 100;
+  line-height: 39px;
+}
+
+.emr {
+  font-family: Avenir, sans-serif;
+}
+
+.overlay {
+  position: absolute;
+  background: linear-gradient(rgb(59 56 43 / 15%), rgb(59 57 50 / 25%));
+  width: 900px;
+  height: 450px;
+}
+
+.secondbutton {
+  font-size: 16px;
+  font-family: Avenir, sans-serif;
+  background-color: #294464;
+  color: white;
+  border-radius: 3px;
+  padding: 1px;
+  border: none;
+  width: 40%;
+  height: 50px;
+  margin-top: 13px;
+}
+
+.physiciansbox {
+  display: flex;
+  flex-wrap: wrap;
+  color: gray;
+  margin-top: 50px;
+  background-color: #fafafa;
+  justify-content: center;
+}
+
+.clinicianswrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  font-family: Avenir, sans-serif;
+}
+
+.locations {
+  width: 50%;
+  text-align: center;
+  margin-bottom: 60px;
+  line-height: 35px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.prefercanvas {
+  font-family: "Tiempos Headline", serif;
+  font-weight: 100;
+  margin-top: 50px;
+}
+
+.physicianowned,
+.clinicians {
+  font-family: Avenir, sans-serif;
+}
+
+.physicianowned {
+  margin-left: 370px;
+  margin-right: 370px;
+  margin-top: -10px;
+  line-height: 23px;
+}
+
+.physiciansentence {
+  text-align: center;
+}
+
+.learnmore {
+  display: flex;
+  margin-left: 80px;
+}
+
+.readytolearn {
+  font-family: "Tiempos Headline", serif;
+  font-weight: 100;
+  color: gray;
+}
+
+.readyandschedule {
+  width: 100%;
+}
+
+.schedule {
+  font-family: Avenir, sans-serif;
+  color: gray;
+  margin-top: -6px;
+}
+
+.thirdbutton {
+  font-size: 20px;
+  font-family: Avenir, sans-serif;
+  background-color: #294464;
+  color: white;
+  border-radius: 3px;
+  width: 200px;
+  border: none;
+  height: 50px;
+}
+
+.buttonflex {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-top: 50px;
+  margin-right: 60px;
+  margin-bottom: 40px;
+}
+
+.companyinfo {
+  display: flex;
+  flex-wrap: wrap column;
+  background-color: #525351;
+  height: 300px;
+}
+
+.canvasinfo {
+  color: white;
+  font-size: 13px;
+  font-family: Avenir, sans-serif;
+  width: 170px;
+  line-height: 24px;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.whitecanvas {
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+.aboutusinfo,
+.productinfo {
+  color: white;
+  font-size: 15px;
+  font-family: Avenir, sans-serif;
+  width: 20%;
+}
+
+.companyproductinfo {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-right: 120px;
+  margin-top: 40px;
+  column-gap: 20px;
+}
+
+.privacyandterms {
+  display: flex;
+  color: gray;
+  font-size: 15px;
+  font-family: Avenir, sans-serif;
+  font-weight: bold;
+  column-gap: 43px;
+  margin-left: 50px;
+  margin-top: 30px;
+  height: 80px;
+  justify-content: baseline;
+}
