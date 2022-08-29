@@ -1,0 +1,42 @@
+.howitworks {
+  margin: 0 auto;
+  font-family: Barlow, sans-serif;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.fourphones {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  column-gap: 4px;
+  margin-top: 20px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+.image {
+  width: 350px;
+}
+
+.smallimage {
+  width: 90px;
+}
+
+h2 {
+  font-weight: bolder;
+  margin-bottom: 45px;
+}
+
+p {
+  font-family:
+    "Lucida Sans",
+    "Lucida Sans Regular",
+    "Lucida Grande",
+    "Lucida Sans Unicode",
+    Geneva,
+    Verdana,
+    sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
