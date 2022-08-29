@@ -40,3 +40,10 @@ p {
   font-size: 15px;
   font-weight: 400;
 }
+
+.firstphone,
+.secondphone,
+.thirdphone,
+.fourthphone {
+  width: 400px;
+}
