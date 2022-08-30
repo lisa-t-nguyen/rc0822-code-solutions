@@ -1,6 +1,6 @@
 /* exported getSquareOfNumber */
-function getSquareOfNumber(number) {
-  return number * number;
+function getSquareOfNumber(porky) {
+  return porky * porky;
 }
 
 getSquareOfNumber(1);
