@@ -40,11 +40,13 @@ var getFirstNameResult = getFirstName(person);
 console.log('getFirstNameResult', getFirstNameResult);
 
 function getLastElement(array) {
-  return array[3];
+  var lastElement = array.length - 1;
+  var lastArrayValue = array[lastElement];
+  return lastArrayValue;
 }
 
 var array = ['propane', 'and', 'propane', 'accessories'];
 
-var getLastElementResult = getLastElement(array);
+var arrayLastElement = getLastElement(array);
 
-console.log('getLastElementResult', getLastElementResult);
+console.log('getLastElementResult', arrayLastElement);
