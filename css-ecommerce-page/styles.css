@@ -1,0 +1,36 @@
+.newarrivals {
+  display: flex;
+  justify-content: center;
+  font-family: "DM Sans", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+}
+
+.firstitem,
+.seconditem,
+.thirditem,
+.fourthitem,
+.fifthitem {
+  width: 700px;
+  text-align: center;
+}
+
+.text {
+  text-align: left;
+}
+
+img {
+  width: 90%;
+  height: 400px;
+}
+
+.money {
+  background-color: #fdf2e8;
+}
+
+.othertext {
+  color: #d6d6d6;
+}
