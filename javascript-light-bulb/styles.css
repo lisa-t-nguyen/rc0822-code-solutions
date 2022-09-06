@@ -1,0 +1,32 @@
+.background {
+  background-color: #fef9f1;
+}
+
+.background-dark {
+  background-color: #111;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.light-bulb {
+  margin-top: 500px;
+  border-radius: 900px;
+  width: 250px;
+  height: 250px;
+  border: none;
+  background-color: #faea84;
+  box-shadow: -15px -15px 125px #faea84;
+}
+
+.light-bulb-dark {
+  margin-top: 500px;
+  border-radius: 900px;
+  width: 250px;
+  height: 250px;
+  border: none;
+  background-color: #252525;
+  box-shadow: -15px -15px 125px #252525;
+}
