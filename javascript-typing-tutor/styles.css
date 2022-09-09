@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 500px;
+}
+
+.h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.text {
+  color: black;
+}
+
+.text-under {
+  border-bottom: 3px solid black;
+}
+
+.text-green {
+  color: chartreuse;
+}
+
+.text-red {
+  color: red;
+  border-bottom: 3px solid red;
+}
