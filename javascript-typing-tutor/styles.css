@@ -12,9 +12,12 @@
   color: black;
 }
 
+.text-under {
+  border-bottom: 3px solid black;
+}
+
 .text-green {
   color: chartreuse;
-  border-bottom: 3px solid black;
 }
 
 .text-red {
