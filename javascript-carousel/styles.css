@@ -1,0 +1,37 @@
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.view {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.img {
+  width: 50%;
+}
+
+.pokemondiv {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.chevron {
+  font-size: 6rem;
+}
+
+.bottomcircle {
+  font-size: 3rem;
+}
