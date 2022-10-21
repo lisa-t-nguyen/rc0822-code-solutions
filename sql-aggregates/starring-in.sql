@@ -1,7 +1,8 @@
-select count("genreId") as "genre",
-"genres"."name"
+select count("filmId") as "films",
+"genres"."name" as "genre"
 from "filmGenre"
 join "castMembers" using ("filmId")
 join "genres" using ("genreId")
-where "actorId" = 178
+join "actors" using ("actorId")
+where "firstName" = 'Lisa' and "lastName" = 'Monroe'
 group by "genreId";
