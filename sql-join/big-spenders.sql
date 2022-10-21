@@ -1,5 +1,6 @@
 select "firstName",
-"lastName"
+"lastName",
+"amount" as "amountSpent"
 from "customers"
 join "payments" using ("customerId")
 order by "amount" desc
