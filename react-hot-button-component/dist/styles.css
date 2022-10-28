@@ -1,0 +1,53 @@
+.btn-purple {
+  color: white;
+  background-color: rgb(53 28 117);
+  padding: 15px;
+  font-weight: bold;
+  box-shadow: 2px 2px 2px black;
+  font-family: sans-serif;
+}
+
+.btn-lightpurple {
+  color: white;
+  background-color: rgb(103 78 167);
+  padding: 15px;
+  font-weight: bold;
+  box-shadow: 2px 2px 2px black;
+  font-family: sans-serif;
+}
+
+.btn-coral {
+  color: white;
+  background-color: rgb(224 102 102);
+  padding: 15px;
+  font-weight: bold;
+  box-shadow: 2px 2px 2px black;
+  font-family: sans-serif;
+}
+
+.btn-orange {
+  color: black;
+  background-color: rgb(246 178 107);
+  padding: 15px;
+  font-weight: bold;
+  box-shadow: 2px 2px 2px black;
+  font-family: sans-serif;
+}
+
+.btn-yellow {
+  color: black;
+  background-color: rgb(255 255 0);
+  padding: 15px;
+  font-weight: bold;
+  box-shadow: 2px 2px 2px black;
+  font-family: sans-serif;
+}
+
+.btn-white {
+  color: black;
+  background-color: ffffff;
+  padding: 15px;
+  font-weight: bold;
+  box-shadow: 2px 2px 2px black;
+  font-family: sans-serif;
+}
