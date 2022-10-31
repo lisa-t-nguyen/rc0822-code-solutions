@@ -1,0 +1,24 @@
+.circle {
+  border: 3px solid black;
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+}
+
+.number {
+  position: relative;
+  top: 48px;
+  left: 55px;
+  font-family:
+    "Comic Neue",
+    cursive;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.button {
+  position: relative;
+  font-size: 2rem;
+  top: 15px;
+  left: 65px;
+}
