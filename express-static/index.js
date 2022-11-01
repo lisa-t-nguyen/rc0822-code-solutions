@@ -2,9 +2,8 @@ const express = require('express');
 const path = require('path');
 
 const expressApp = express();
-const expressStatic = express.static('public');
-
-path.join(__dirname, 'public');
+const publicPath = path.join(__dirname, 'public');
+const expressStatic = express.static(publicPath);
 
 expressApp.use(expressStatic);
 
