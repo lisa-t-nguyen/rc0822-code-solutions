@@ -1,0 +1,29 @@
+User can sign up.
+- When users are signing up, they are sending a POST request to the client with
+their username and password. If neither username or password is provided, the
+client will throw an error of 400 with a message stating that username and
+password are required fields. The password will then be hashed into the database
+to be stored at username and userID after querying the database.
+
+User can sign in.
+- When users are signing in, they are sending a POST request to the client
+with their username and password. If neither username or password is provided, the
+client will throw an error of 401 with a message stating that their login is
+invalid. The database will then be query'd to check the user's username
+and password against the rows in the database. If the username does not exist,
+a 401 error with invalid login error will appear. If the username exists,
+their password will be matched against the hashed password that is stored
+in the database. If the password does not match the hashed password, an error
+of 401 with invalid login will appear. If the password matches, user will be able
+to sign in and a token will be generated upon successful sign-in.
+
+User can stay signed in (even if they refresh the page).
+- When users are signing in, a POST request is sent to the client. Afterwards,
+they are authenticated and then authorized once all parameters have been matched
+successfully. They remained sign in after refreshing the page because their
+information is being stored in the window local storage. Their userID, username,
+and password authenticate and authorize them to remain signed in with a token.
+
+User can sign out.
+- When users are signing out, their information is being removed from the
+window local storage and also sets the user state to null.
