@@ -23,6 +23,13 @@ numVowels('LearningFuze')                 // -> 5
 // Return the counter variable
 
 function numVowels(string) {
+//   return string.toLowerCase().split('').reduce((vowelCount, letter) => {
+//     if (letter === 'a' || letter === 'e' || letter === 'i' || letter === 'o' || letter === 'u') {
+//       vowelCount++;
+//     }
+//     return vowelCount;
+//   }, 0);
+
   const lowerCaseString = string.toLowerCase();
   let vowels = 0;
 
